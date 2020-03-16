@@ -44,13 +44,18 @@ li {
   border-bottom: 0.5px solid rgba(196, 196, 196, 0.97);
   margin-right: 1em;
   margin-left: 1em;
+  height: 5em;
 }
 
 .bus-num {
-  background: rgba(0, 0, 0, 0.71);
-  border-radius: 100em;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  width: 150px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.71);
+  border-radius: 500px;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 .content {
@@ -92,7 +97,18 @@ a:link, a:visited {
 .right {
   float: right;
 }
-.arrow{
+
+.arrow {
   color: gray;
   font-size: 0.8em;
+}
+
+.out-of-service {
+  text-align: center;
+  line-height: 2em;
+  height: 2em;
+}
+
+.red {
+  color: red;
 }
