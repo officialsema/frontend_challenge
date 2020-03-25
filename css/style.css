@@ -19,11 +19,13 @@ h3 {
 }
 
 nav {
-  background-color: #FFC635;
+  background-color: #ffc500;
   position: fixed;
   width: 100%;
-  padding-right: 1em;
-  padding-left: 1em;
+}
+
+nav img {
+  width: 100%;
 }
 
 nav h1 {
@@ -56,10 +58,11 @@ li {
   border-radius: 500px;
   line-height: 1.5em;
   text-align: center;
+  margin-top: 4%;
 }
 
-.content {
-  padding-top: 4em;
+main {
+  padding-top: 6em;
   padding-bottom: 4em;
   text-align: left;
   line-height: 1.25em;
@@ -69,7 +72,7 @@ li {
   padding-left: 1em;
 }
 
-.footer {
+footer {
   position: fixed;
   background-color: white;
   border-top: 0.5px solid rgba(196, 196, 196, 0.97);
@@ -101,6 +104,7 @@ a:link, a:visited {
 .arrow {
   color: gray;
   font-size: 0.8em;
+  margin-top: 4%;
 }
 
 .out-of-service {
@@ -111,4 +115,8 @@ a:link, a:visited {
 
 .red {
   color: red;
+}
+
+.frequency {
+  font-size: 0.8em;
 }
